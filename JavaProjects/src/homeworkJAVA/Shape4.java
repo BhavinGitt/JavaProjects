@@ -2,7 +2,7 @@ package homeworkJAVA;
 
 import java.util.Arrays;
 
-public class Shape {
+public class Shape4 {
 
 	private int lentgh;
 	private int width;
@@ -11,15 +11,15 @@ public class Shape {
 	final double PI_VALUE = 3.14;
 
 	
-	public Shape() {
+	public Shape4() {
 
 	}
 
-	public Shape(int lentgh) {
+	public Shape4(int lentgh) {
 		this.lentgh = lentgh;
 	}
 
-	public Shape(int lentgh, int width) {
+	public Shape4(int lentgh, int width) {
 		this.lentgh = lentgh;
 		this.width = width;
 	}
@@ -53,16 +53,16 @@ class Shape1 {
 
 	public static void main(String[] args) {
 
-		Shape circleArea = new Shape();
+		Shape4 circleArea = new Shape4();
 		System.out.println(circleArea.getAreaCircle(5));
 
-		Shape sqaureArea = new Shape();
+		Shape4 sqaureArea = new Shape4();
 		System.out.println(sqaureArea.getAreaSqaure(5));
 
-		Shape rectangleArea = new Shape();
+		Shape4 rectangleArea = new Shape4();
 		System.out.println(sqaureArea.getAreaRectangle(5, 6));
 
-		Shape[] shapeArray = { circleArea, sqaureArea, rectangleArea };
+		Shape4[] shapeArray = { circleArea, sqaureArea, rectangleArea };
 		System.out.println(shapeArray.length);
        
 	//we were tried for ascending and descending separation of array but NOT get yet will give you reply once get it.
