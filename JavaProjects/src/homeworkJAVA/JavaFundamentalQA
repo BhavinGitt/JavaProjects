@@ -1,0 +1,128 @@
+Java Fundamental Interview Questions Answers
+
+1. What is object-oriented programming?
+Ans: Object-oriented programming (OOP) in Java is a programming methodology or paradigm (model)  to design a computer program using classes and objects.
+It is the most popular programming paradigm and widely used in the software industry today. It is an extension of procedural programming.
+2. What are the four important characteristics of object-oriented programming?
+Ans: The most important characteristics of object-oriented programming are Encapsulation, Inheritance, Abstraction, and Polymorphism.
+3. What is procedural programming paradigm?
+Ans: When data is shared among all the functions and focuses on doing things rather than using the data is called procedural programming paradigm.
+4. What are the two major differences between Object-Oriented Programming and Procedural Programming?
+Ans: Object-Oriented Programming:
+•	It focuses on the data.
+•	It is based on the four main principles of Encapsulation, Inheritance, Abstraction, and Polymorphism.
+Procedural Programming:
+•	It focuses on doing things rather than on data.
+•	It is based on the sequence of instructions.
+5. What is Java?
+Ans: Java is a powerful, versatile, and high-level programming language developed by Sun Microsystem. Originally, Java was known as OAK.
+It is used for developing platform-independent software (applications) running on desktop computers, mobile devices, and servers.
+6. Who developed Java?
+Ans: Java was invented by James Gosling and his team members in 1994.
+7. Why is Java System Independent (Architecture neutral)?
+Ans: Java is system independent because Java bytecode is not associated with any particular hardware platform. It can be executed on any system machine with any processor and any operating system that implements Java Virtual Machine.
+
+8. Why is Java Portable?
+Ans: Java is portable because java program gives the same result on every system machine.
+9. What are the features of Java language?
+Ans: There are the following features of Java language. They are as follows:
+•	Simple
+•	Object-oriented
+•	Distributed
+•	Robust
+•	Secure
+•	System Independence
+•	Portability
+•	Interpreted
+•	High performance
+•	Multithreaded
+•	Dynamic
+10. Give few examples of object-oriented language other than Java.
+Ans: Two examples of object-oriented languages other than Java are Python, and C++.
+11. What is JDK?
+Ans: JDK stands for Java Development Kit that is used for building (developing) java software applications and applets. In other words, it is used to write java program by programmer.
+12. What is JRE?
+Ans: Java Runtime Environment (JRE) is a collection of programs that contains Java Virtual Machine and many class libraries files that are required to run programs on JVM (via java command).
+In simple words, it is a software environment in which Java program executes.
+JRE is a part of the Java Development Kit but cannot be used independently to execute any bytecode (compiled java program).
+13. What are the main components of JRE?
+Ans: The main components of JRE  are as follows:
+•	Java API (Application Programming Interface)
+•	Class Loader
+•	Bytecode verifier
+•	Java Virtual Machine (Interpreter)
+14. What is JVM?
+Ans: Java Virtual Machine (JVM) is an abstract computer machine that is responsible for executing Java bytecode (a highly optimized set of instructions) on a particular hardware platform.
+
+15. What are the main activities (tasks) that are performed by JVM?
+Or, How JVM works internally?
+Ans: JVM performs the following tasks that are as follows:
+•	Loads code
+•	Verifies code
+•	Executes code
+•	Provides runtime environment
+16. What is Java API?
+Ans: Java Application Programming Interface (API) is a very large collection of pre-packaged, ready-made software components that provides the core functionality of the Java programming language.
+17. What is the popular Java API?
+Ans: The most popular Java API are as follows:
+•	java.lang
+•	java.io
+•	java.util
+•	java.math
+•	java.sql
+18. What is Class Loader in Java?
+Or, What is the role of class loader in JVM?
+Ans: Class loader in JVM loads the .class file containing bytecode into memory. After loading of class, it is passed to the bytecode verifier.
+19. What is Bytecode verifier?
+Ans: The bytecode verifier verifies that bytecodes are valid or not without breaching any of Java’s security rules. It ensures that there is no unauthorized access to memory.
+Once the code is successfully verified, it is transferred to Java Virtual Machine (JVM) for interpretation.
+20. What is Java Library?
+Ans:  A Java library is a collection of programs that are used to perform the many common tasks in the program.
+21. What is Bytecode in Java?
+Ans: Bytecode in Java is a highly optimized set of instructions for the Java Virtual Machine (JVM) that reads and interprets to run the java program.
+22. What are the characteristics of Java Bytecode?
+Ans: Java bytecode has two most important characteristics that are as follows:
+•	Byte code is independent of processor i.e. java program can be executed on any processor architecture.
+•	It does not depend on operating systems such as Windows, Linux, and Mac OS.
+23. How does Bytecode work in Java?
+Ans: When we write a java program, the source code (in the form of .java file) is compiled by Java compiler and converted into byte code in the form of a .class file.
+This compiled byte code is platform-independent code that can be run on any different computer machine on which JVM interpreter is installed.
+24. What is the difference between bytecode and machine code?
+Ans: The main difference between the byte code and machine code is that byte code can be run only on JVM whereas machine code is a set of instructions in machine language that can be directly run by the CPU.
+25. What is source code in Java?
+Ans: Java code written by a programmer is called source code.
+26. What is the difference between source code and bytecode?
+Ans: There are mainly two differences between source code and bytecode. They are as follows:
+•	The extension of source code is .java whereas, the extension of bytecode is .class.
+•	Source code is the java code written by the programmer whereas bytecode is a highly optimized set of instructions for the Java Virtual Machine (JVM) that reads and interprets to run the java program.
+27. Why compiled java code can execute on different computer machines?
+Ans: Compiled java code can execute on different computer machines because JVM exists differently for different operating systems.
+28. What is the role of Execution engine in JVM?
+Ans: Execution engine in JVM run the bytecode and produces the operating system specific machine instructions. These machine instructions are then executed directly by CPU.
+29. What is Java compiler?
+Ans: A java compiler is a computer program that is used for compiling Java programs. It is platform-independent. It converts (translates) source code (.java file) into bytecode (.class file).
+30. What are the functions (responsible tasks) for Java compiler?
+Ans: Java compiler is responsible for the following tasks that are as follows:
+•	Java compiler checks the syntaxial error (Syntax error).
+•	It converts source code into byte code with the help of Java Virtual Machine (JVM).
+•	It also adds the additional code to your program if required.
+31. What is an Interpreter in Java?
+Ans: Interpreter in Java is a computer program (software) that implements Java Virtual Machine (JVM) and runs Java applications (programs).
+32. What is the function of Java Interpreter?
+Ans: The main function of interpreter is to convert the bytecode instruction to machine code line by line at runtime, without changing the sequence.
+33. What is the difference between Java compiler and interpreter?
+Ans: Refer to answer no. 27 and 29.
+34. Explain the process of Java program compilation and execution?
+or, What happens when compiler compiles the source code (.java file)?
+Ans: When the compiler compiles source code (.java file) then it generates the series of bytecode and stores them in a .class file known as bytecode.
+JVM executes the bytecode and produces Operating System specific machine instructions. These machine instructions are executed directly by CPU.
+35. What is the difference between JDK and JRE?
+Ans: JDK stands for Java Development Kit that contains tools and libraries for the development of Java programs. It also contains
+compilers and debuggers for the compilation of Java programs.
+JRE stands for Java Runtime Environment that is involved in JDK. JRE provides libraries and JVM that is needed to execute a Java
+program.
+36. What are the different types of memory areas allotted by JVM?
+Ans: For the best answer, go to this tutorial: JVM Architecture
+37. What is JIT compiler?
+Ans: JIT compiler stands for Just In Time compiler that is the part of JVM. It is used to increase the speed of execution of a Java program.
+
