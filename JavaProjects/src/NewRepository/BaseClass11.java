@@ -1,6 +1,7 @@
 package NewRepository;
 
 import java.io.File;
+import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 
@@ -18,15 +19,17 @@ public class BaseClass11 {
 		System.setProperty("webdriver.chrome.driver", "D:\\MavenSelenium\\Driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-
 	}
 
 	public void getscreenshot(String Filename) {
 		try {
+			Date currentDate= new Date();
+			String ScreenShotFileName= currentDate.toString().replace(" ", "-").replace(":", "-");
 			TakesScreenshot ts = (TakesScreenshot) driver;
 			File srcFile = ts.getScreenshotAs(OutputType.FILE);
+			
 			FileUtils.copyFile(srcFile,
-					new File("C:\\Users\\java\\eclipse-workspace\\TestingDemostration1\\screenshot1\\screen.png"));
+					new File("C:\\Users\\java\\eclipse-workspace\\TestingDemostration1\\screenshot1\\"+ScreenShotFileName+".png"));
 			System.out.println("Screen shot taken");
 		} catch (Exception e) {
 			e.getMessage();
