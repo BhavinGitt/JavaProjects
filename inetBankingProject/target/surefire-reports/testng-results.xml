@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-07T00:08:14 EDT" name="inetBankingProject" finished-at="2022-05-07T00:08:44 EDT" duration-ms="30047">
+    <groups>
+    </groups>
+    <test started-at="2022-05-07T00:08:14 EDT" name="Banking app test2" finished-at="2022-05-07T00:08:15 EDT" duration-ms="459">
+    </test> <!-- Banking app test2 -->
+    <test started-at="2022-05-07T00:08:14 EDT" name="Banking app test1" finished-at="2022-05-07T00:08:44 EDT" duration-ms="30047">
+      <class name="com.inetBankingProject.testCases.TC_LoginPage_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetBankingProject.testCases.TC_LoginPage_001@2f54a33d]" started-at="2022-05-07T00:08:15 EDT" name="setup" finished-at="2022-05-07T00:08:37 EDT" duration-ms="22462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.inetBankingProject.testCases.TC_LoginPage_001@2f54a33d]" started-at="2022-05-07T00:08:37 EDT" name="loginTest" finished-at="2022-05-07T00:08:43 EDT" duration-ms="5793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetBankingProject.testCases.TC_LoginPage_001@2f54a33d]" started-at="2022-05-07T00:08:43 EDT" name="tearDown" finished-at="2022-05-07T00:08:44 EDT" duration-ms="1102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetBankingProject.testCases.TC_LoginPage_001 -->
+    </test> <!-- Banking app test1 -->
+  </suite> <!-- inetBankingProject -->
+</testng-results>
